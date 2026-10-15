@@ -102,10 +102,10 @@ class RenderObjects {
 
 		// set chain keys
 
-		_chainKeys[ 0 ] = object;
-		_chainKeys[ 1 ] = material;
-		_chainKeys[ 2 ] = renderContext;
-		_chainKeys[ 3 ] = lightsNode;
+		_chainKeys[ 0 ] = renderContext;
+		_chainKeys[ 1 ] = lightsNode;
+		_chainKeys[ 2 ] = material;
+		_chainKeys[ 3 ] = object;
 
 		//
 

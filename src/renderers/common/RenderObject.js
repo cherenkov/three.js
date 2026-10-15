@@ -518,7 +518,7 @@ class RenderObject {
 	 */
 	getChainArray() {
 
-		return [ this.object, this.material, this.context, this.lightsNode ];
+		return [ this.context, this.lightsNode, this.material, this.object ];
 
 	}
 
